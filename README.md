@@ -11,6 +11,15 @@ Using SQL to query a database for login attempts allows for detailed analysis of
 Using "SELECT" allows me to instruct SQL to begin searching for the command that follows. The "*" symbol, known as a wildcard, is used to search for all or everything. Continuing with "FROM" instructs SQL to specify the data to be searched for in the database, in this case, "log_in_attempts". The subsequent "WHERE" command requests SQL to retrieve "login_dates" greater (>) than the date 2022-05-09. In SQL, a semicolon ";" must be used at the end of a syntax to close the commands. After successfully instructing SQL on what we are searching for, it organizes the data into tables that are easy to read and interpret. Here, we can observe the usernames, login dates, login times, country, IP addresses, and the number of successful logins.
 
 
+![IMG_8820](https://github.com/Cyberz189/SQL-Lab/assets/163569052/9b554f54-9066-4b9e-87d2-b857b4a1bf0c)
+
+Expanding on the use of filters, im able to use the "between" command to specify a range for the dates im looking to get information on. Using this information is crucial to a SOC analyst as it helps specify or even narrow down the specfic dates
+
+
+![IMG_8819](https://github.com/Cyberz189/SQL-Lab/assets/163569052/58ea4fc6-1afb-4b05-8f3c-25e5a5f1917c)
+
+Continuing on with the filters this time i use the boolean "<" to look for events that happened before 7:00am on any given day. This helps to see if there was any suspicious activity going on any given day, as cyber attacks are more prevalent during late nights or early mornings.
+
 
 
 
