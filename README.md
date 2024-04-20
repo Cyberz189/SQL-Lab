@@ -13,12 +13,22 @@ Using "SELECT" allows me to instruct SQL to begin searching for the command that
 
 ![IMG_8820](https://github.com/Cyberz189/SQL-Lab/assets/163569052/9b554f54-9066-4b9e-87d2-b857b4a1bf0c)
 
-Expanding on the use of filters, im able to use the "between" command to specify a range for the dates im looking to get information on. Using this information is crucial to a SOC analyst as it helps specify or even narrow down the specfic dates
+Expanding on the use of filters, I'm able to utilize the "BETWEEN" command to specify a date range for the information I'm seeking. This capability is crucial for a SOC analyst as it aids in pinpointing specific dates or narrowing down the timeframe of interest.
+
 
 
 ![IMG_8819](https://github.com/Cyberz189/SQL-Lab/assets/163569052/58ea4fc6-1afb-4b05-8f3c-25e5a5f1917c)
 
-Continuing on with the filters this time i use the boolean "<" to look for events that happened before 7:00am on any given day. This helps to see if there was any suspicious activity going on any given day, as cyber attacks are more prevalent during late nights or early mornings.
+Continuing with the filters, this time I employ the boolean operator "<" to search for events occurring before 7:00 AM on any given day. This assists in identifying potential suspicious activity, as cyber attacks tend to occur more frequently during late nights or early mornings.
+
+
+
+![IMG_8815](https://github.com/Cyberz189/SQL-Lab/assets/163569052/39a44e87-7e37-44f7-bed4-a015db08ef12)
+
+
+Narrowing down the search using filters, I can utilize SQL to specifically target unsuccessful login attempts occurring after 18:00. By specifying the time and using the command "success = false", I retrieve data on unsuccessful attempts by username, country, IP address, and time. This focused approach allows for a thorough analysis of potential security threats during specific timeframes, aiding in the identification and mitigation of cybersecurity risks.
+
+
 
 
 
