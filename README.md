@@ -36,7 +36,7 @@ Another logical operator that can be employed is "OR", which instructs SQL to co
 
 ![IMG_8812](https://github.com/Cyberz189/SQL-Lab/assets/163569052/0fb3c89c-6f60-4dd3-97f0-ce685d9eda4f)
 
-
+Filtering with 'NOT' instructs SQL to retrieve information that excludes what's specified. In this case, using 'LIKE' directs SQL to search for countries that don't start with 'MEX' and employing the wildcard '%' fills characters in a word. For instance, 'MEX%' could denote 'Mexican,' 'Mexico,' or any other word starting with 'MEX.' By combining all the boolean operators together, SQL can provide information where the country doesn't include Mexico
 
 
 
