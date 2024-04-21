@@ -1,10 +1,16 @@
-                                                      APPLYING FILTERS TO SQL QUERIES
-
-
-
+# SQL Lab
+                                                 
+## Objective
 
 Using SQL to query a database for login attempts allows for detailed analysis of login activities, including information such as country, usernames, dates, and departments. By constructing SQL queries with appropriate conditions and joins, it becomes possible to retrieve specific login data based on various criteria. For example, querying by country can help identify the geographical origin of login attempts, while querying by usernames and dates can provide insights into user behavior and patterns. Additionally, querying by departments enables organizations to track login activities associated with specific departments, facilitating targeted security measures and monitoring. Overall, leveraging SQL for database queries empowers organizations to conduct comprehensive analyses of login attempts, aiding in cybersecurity efforts and ensuring the integrity of their systems.
 
+### Skills Learned
+
+- Location Filtering: SQL facilitates location-based filtering using conditions such as "WHERE" clause combined with comparison operators like "=" or "<>", allowing for precise filtering by latitude, longitude, or location names.
+- Boolean Operations: SQL supports boolean operations like "AND," "OR," and "NOT," enabling complex filtering conditions based on multiple criteria, such as filtering data by location and other attributes simultaneously.
+- Range Filtering: SQL provides range-based filtering capabilities using comparison operators like "<" and ">", enabling filtering data within specified geographic coordinates or distances.
+- Pattern Matching: SQL's "LIKE" operator, combined with wildcards "*" and "%," allows for pattern matching of location names, enabling filtering based on partial matches or specific patterns within location data.
+- Time-Based Filtering: SQL enables filtering data by time using conditions like "WHERE" clause combined with comparison operators for timestamps or date values, facilitating retrieval of records based on specific time ranges or temporal conditions.
 
 ![IMG_8809](https://github.com/Cyberz189/SQL-Lab/assets/163569052/0575e273-a855-44ea-840e-e4a6e4c9a292)
 
