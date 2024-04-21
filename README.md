@@ -39,6 +39,14 @@ Another logical operator that can be employed is "OR", which instructs SQL to co
 Filtering with 'NOT' instructs SQL to retrieve information that excludes what's specified. In this case, using 'LIKE' directs SQL to search for countries that don't start with 'MEX' and employing the wildcard '%' fills characters in a word. For instance, 'MEX%' could denote 'Mexican,' 'Mexico,' or any other word starting with 'MEX.' By combining all the boolean operators together, SQL can provide information where the country doesn't include Mexico
 
 
+![IMG_8810](https://github.com/Cyberz189/SQL-Lab/assets/163569052/c3f40556-5759-485e-aec4-390f2ab0a11d)
+
+Finally, SQL also enables filtering, simplifying database searches. Here, we can employ SQL to search a department for employees in Sales or Finance and retrieve their employee ID, username, and department. In security, time is of the essence, and the capability to swiftly locate and analyze information could offer a company peace of mind, cost savings, and safeguard its reputation
+
+
+In conclusion using SQL for security purposes, SQL offers a powerful toolset for managing and safeguarding sensitive data within databases. Its efficient filtering and querying capabilities enable swift access to information, crucial in time-sensitive scenarios for mitigating risks and preventing breaches. Organizations can implement stringent access controls, monitor user activities, and detect anomalies to ensure data integrity and confidentiality. SQL's versatility allows integration with security protocols and encryption mechanisms, fortifying databases against unauthorized access and cyber threats. Overall, SQL plays a pivotal role in enhancing data protection, safeguarding company assets, and preserving organizational reputation in today's digital landscape.
+
+
 
 
 
